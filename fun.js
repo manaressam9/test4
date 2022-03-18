@@ -1,5 +1,13 @@
 // user created module
-const my_Fun = () => {
+const my_fun = () => {
     console.log("hello world from user created module function");
 };
-module.export ={ my_Fun };
+
+const greeter = (name) => {
+
+    console.log(`hello ${name}`);
+};
+module.export = { 
+    my_fun,
+    greeter
+};
