@@ -5,7 +5,9 @@ const my_fun = () => {
 
 const greeter = (name) => {
 
+
     console.log(`hello ${name}`);
+
 };
 module.export = { 
     my_fun,
